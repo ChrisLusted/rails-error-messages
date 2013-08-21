@@ -6,7 +6,7 @@ if [ "$RESP" = "dark" ]; then
   curl -O https://raw.github.com/owainlewis/rails-error-messages/master/dark/500.html
 else
   echo "Installing light themes"
-	curl -O https://raw.github.com/owainlewis/rails-error-messages/master/light/404.html
+  curl -O https://raw.github.com/owainlewis/rails-error-messages/master/light/404.html
   curl -O https://raw.github.com/owainlewis/rails-error-messages/master/light/422.html
   curl -O https://raw.github.com/owainlewis/rails-error-messages/master/light/500.html
 fi
